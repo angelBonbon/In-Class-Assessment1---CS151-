@@ -31,9 +31,9 @@ class Main {
         // Given seconds in year
         int secondsInYear = 31536000;
 
-        // Calculates how many births have occured in given years
+        // Calculates how many births have occurred in given years
         double newBirths = (years*secondsInYear)/birthTime;
-        // Calculates how many deaths have occured in given years
+        // Calculates how many deaths have occurred in given years
         double newDeaths = (years*secondsInYear)/deathTime;
         // Calculates how many immigrants have entered the country in given years
         double newImms = (years*secondsInYear)/immTime;
